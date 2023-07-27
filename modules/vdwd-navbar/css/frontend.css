@@ -1,0 +1,19 @@
+body:not(.fl-builder-edit) .navbar-bottom:has(.vdwd-navbar) {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+}
+.vdwd-navbar .nav-link:hover {
+    background-color: var(--bs-light);
+}
+.vdwd-navbar .link-title {
+    font-size: .8rem;
+    line-height: 1rem;
+    white-space: nowrap;
+}
+.vdwd-navbar .link-icon {
+    font-size: 1.25rem;
+    color: var(--primary);
+}
