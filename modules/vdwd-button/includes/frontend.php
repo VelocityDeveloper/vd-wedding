@@ -53,8 +53,8 @@ if ($click_action && ($click_action == 'calendar')) {
             <source src="<?php echo $settings->link_audio; ?>" type="audio/mpeg">
         </audio>
 
-        <div class="position-fixed end-0 bottom-0 mb-5 pt-3 pe-4 audio-volume" style="display: none;">
-            <div class="audiotriger btn btn-light pt-2 text-dark shadow rounded-circle" data-nodeid="<?php echo $button_node_id; ?>">
+        <div class="position-fixed end-0 bottom-0 mb-5 pt-3 pe-2 audio-volume" style="display: none;">
+            <div class="audiotriger btn btn-light mb-3 pt-2 text-dark shadow rounded-circle" data-nodeid="<?php echo $button_node_id; ?>">
                 <div class="audio-on">
                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-volume-up" viewBox="0 0 16 16">
                         <path d="M11.536 14.01A8.473 8.473 0 0 0 14.026 8a8.473 8.473 0 0 0-2.49-6.01l-.708.707A7.476 7.476 0 0 1 13.025 8c0 2.071-.84 3.946-2.197 5.303l.708.707z" />

@@ -223,6 +223,15 @@ if ('enable' === $settings->button_transition && 'flat' === $settings->style) :
     <?php endif; ?>
 <?php endif; ?>
 
+<?php if (!empty($settings->click_action) && $settings->click_action == 'play') : ?>
+    .fl-builder-content .fl-node-<?php echo $id; ?> .audio-volume .audiotriger {
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 0.25rem;
+    line-height: 1.6rem;
+    }
+<?php endif; ?>
+
 <?php
 
 $button_node_id = "fl-node-$id";
